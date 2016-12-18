@@ -4,8 +4,10 @@
  
 ## Task 1:  Create a UI using HTML/CSS that matches a Design Mock Image.
 
-- Solution HTML is in: ui_challenge.html
-- Solution CSS is in: css/ui_challenge.css
+- Solution HTML is in: ui_challenge_v2.html 
+- Solution CSS is in: css/ui_challenge_v2.css (This uses flexbox)
+  Files: ui_challenge.html and ui_challenge.css provide a non-flexbox solution.
+         But assuming flexbox is available in target browsers, v2 is the better solution.
 - Screenshot comparing design mock vs. CSS version is in img/screenshot.png
 
 Screenshot taken in Firefox on Windows.
