@@ -1,14 +1,15 @@
-# Javascript Coding and UI Challenge Test
+# Javascript Coding and UI Design Challenge Solutions
  
  Author: David Spears - daspears3000@gmail.com
  
 ## Task 1:  Create a UI using HTML/CSS that matches a Design Mock Image.
 
+- Screenshot comparing design mock vs. CSS version is in img/screenshot_v2.png
 - Solution HTML is in: ui_challenge_v2.html 
-- Solution CSS is in: css/ui_challenge_v2.css (This uses flexbox)
+- Solution CSS is in: css/ui_challenge_v2.css (This uses flexbox.
   Files: ui_challenge.html and ui_challenge.css provide a non-flexbox solution.
-         But assuming flexbox is available in target browsers, v2 is the better solution.
-- Screenshot comparing design mock vs. CSS version is in img/screenshot.png
+         But assuming flexbox is available in target browsers, v2 is the better solution.)
+
 
 Screenshot taken in Firefox on Windows.
 
