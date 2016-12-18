@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+  <title>UI Challenge!</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/css-reset.css">
+  <link rel="stylesheet" href="css/ui_challenge.css">
+</head>
+<body>
+  <div class='dialog' id="employeeManagementDialog">
+    <form name="employeeManagement"  action="#" >
+      <div class="heading">
+        <h3>Employee Management</h3>
+      </div>
+      <div class="menuPane">
+        <ul id="nameSelection" class="selectionMenu">
+          <li>John</li>
+          <li>Thomas</li>
+          <li>Elizabeth</li>
+          <li class="selected">Jeremy</li>
+          <li>Mary</li>
+          <li>Karl</li>
+          <li>Janet</li>
+          <li>Deshaun</li>
+        </ul>
+      </div>
+      <div class="inputPane">
+        <div class="inputRow">
+          <label for="name">Name:</label>
+          <input id="name" name="name" value="Jeremy">
+        </div>
+        <div class="inputRow">
+          <label for="name">Role:</label>
+          <select id="role" name="role">
+            <option selected="selected" value="Code Wrangler">Code Wrangler</option>
+            <option value="Javascript Hacker">Javascript Hacker</option>
+            <option value="Testing Guru">Testing Guru</option>
+            <option value="Testing Guru">Engineering Brain</option>
+            <option value="Testing Guru">Marketing Genius</option>
+            <option value="Testing Guru">Business Visionary</option>
+          </select>
+        </div>
+        <div class="inputRow">
+          <label for="name">Salary:</label>
+          <input id="salary" name="salary" value="$1,000,000">
+        </div>
+        <div class="buttonRow">
+          <button id="cancel">Cancel</button>
+          <button id="ok">OK</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="original">
+    <img src="img/task-1-design.png">
+    <p style="margin-left:25px">(original image)</p>
+  </div>
+</body>

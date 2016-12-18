@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+  <title>UI Challenge!</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/ui_challenge_v2.css">
+</head>
+<body>
+<div class='dialog' id="new">
+  <form name="employeeManagement"  action="#" >
+    <div class="heading">
+      <h3>Employee Management</h3>
+    </div>
+    <div class="panes">
+      <div class="menuPane">
+        <ul id="nameSelection" class="selectionMenu">
+          <li>John</li>
+          <li>Thomas</li>
+          <li>Elizabeth</li>
+          <li class="selected">Jeremy</li>
+          <li>Mary</li>
+          <li>Karl</li>
+          <li>Janet</li>
+          <li>Deshaun</li>
+        </ul>
+      </div>
+      <div class="inputPane">
+        <div class="inputRow">
+          <label for="name">Name:</label>
+          <input id="name" name="name" value="Jeremy">
+        </div>
+        <div class="inputRow">
+          <label for="role">Role:</label>
+          <span class="input-group">
+            <input id="role" name="name" value="Code Wrangler">
+            <button id="selectRole"></button>
+          </span>
+        </div>
+        <div class="inputRow">
+          <label for="salary">Salary:</label>
+          <input id="salary" name="salary" value="$1,000,000">
+        </div>
+        <div class="buttonRow">
+          <button id="cancel">Cancel</button>
+          <button id="ok">OK</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="original" id="original">
+  <img src="img/task-1-design.png" alt="orig">
+  <p style="margin-left:25px">(original image)</p>
+</div>
+
+</body>
+</html>

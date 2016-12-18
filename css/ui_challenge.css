@@ -1,0 +1,147 @@
+
+
+.dialog {
+  background: #f7f7f7;
+  border: 1px solid #999;
+  width: 600px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #444449;
+  /*opacity: 0.5;*/
+  position: fixed;
+  top: 118px;
+  left: 640px;
+  z-index: 1000;
+  border-radius: 4px 4px 0 0;
+  padding-bottom: 2px;
+}
+.dialog .heading {
+  text-align: center;
+  height: 29px;
+  padding-top: 4px;
+  border-bottom: 1px solid #999;
+  background: -moz-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(100%, rgba(228,228,228,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* ie10+ */
+  background: linear-gradient(179deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* w3c */
+}
+.dialog .heading h3 {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.no-scroll::-moz-scrollbar {display:none;}
+
+.menuPane, .inputPane {
+  display: inline-block;
+  padding: 10px;
+}
+.inputPane {
+  padding: 8px 7px;
+}
+.menuPane {
+  border-right: 1px solid #999;
+}
+
+form {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.inputPane {
+  bottom: 0;
+  height: 197px;
+  position: relative;
+  top: 0;
+  vertical-align: top;
+}
+
+.inputRow {
+  margin: 0px 0 8px 0px;
+}
+
+.inputRow > input, .inputRow select {
+  background: white none repeat scroll 0 0;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 299px;
+  font-size: 13px;
+  padding-left: 4px;
+  padding-top: 4px;
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+}
+
+.inputPane .buttonRow {
+  bottom: 6px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+}
+
+.inputPane .buttonRow > input, .inputPane .buttonRow > button {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 3px;
+  margin-top: 16px;
+  width: 77px;
+  height: 28px;
+  background: -moz-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(100%, rgba(228,228,228,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(271deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* ie10+ */
+  background: linear-gradient(179deg, rgba(250,250,250,1) 0%, rgba(228,228,228,1) 100%); /* w3c */
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+ul.selectionMenu {
+  list-style-type: none;
+  background: white;
+  width: 183px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  padding: 0;
+  margin: 0;
+  height: 177px;
+}
+.selectionMenu li {
+  font-size: 14px;
+  margin: 0;
+  padding: 1px 8px;
+  height: 22px;
+}
+.selectionMenu .selected {
+  background-color: navy;
+  color: white;
+}
+
+#employeeManagementDialog .inputRow label {
+  width: 66px;
+  font-size: 13px;
+  display: inline-block;
+}
+.original {
+  position: fixed;
+  top: 100px;
+  left: 10px;
+}
+
+.inputRow select {
+
+  -webkit-appearance:none;
+  -moz-appearance:none;
+
+  background: white url(../img/downarrow.png) 100% 0 no-repeat;
+  height: 29px;
+}
