@@ -1,17 +1,18 @@
-# Geographic Research Coding and UI Challenge!
+# Javascript Coding and UI Challenge Test
  
  Author: David Spears - daspears3000@gmail.com
  
-## Task 1:
+## Task 1:  Create a UI using HTML/CSS that matches a Design Mock Image.
 
-- HTML is in: ui_challenge.html
-- CSS is in: css/ui_challenge.css
-- Screenshot is in img/screenshot.png
+- Solution HTML is in: ui_challenge.html
+- Solution CSS is in: css/ui_challenge.css
+- Screenshot comparing design mock vs. CSS version is in img/screenshot.png
 
 Screenshot taken in Firefox on Windows.
 
-## Task 2:
+## Task 2:  Write a JS API library for creating and manipulating a HTML Table.
 
+- Solution Javascript Code is in src/table.js
 - Demo HTML file:  index.html 
 - No need to run 'npm install' unless you want to run lint (npm run lint)
 - Table object contstructor is in src/table.js
